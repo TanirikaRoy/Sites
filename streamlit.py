@@ -4,9 +4,9 @@ def main():
     st.set_page_config(page_title='College Application', layout='wide', initial_sidebar_state='collapsed')
 
     # Define color theme
-    primary_color = '#21295C'  # Dark blue
-    secondary_color = '#74A4BC'  # Light blue
-    text_color = '#FFFFFF'  # White
+    primary_color = '#003366'  # MIT Dark Blue
+    secondary_color = '#FFC627'  # MIT Gold
+    text_color = '#000000'  # Black
 
     # Header
     st.markdown(
@@ -36,23 +36,26 @@ def main():
     st.write('')
 
     # About Me section
-    st.markdown('<h2 id="about" style="color: white;">About Me</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 id="about" style="color: black;">About Me</h2>', unsafe_allow_html=True)
+    st.write("I'm [Your Name], an aspiring student with a passion for technology and innovation. I am eager to contribute to the vibrant community at MIT and embrace the challenges of higher education.")
     st.write('Write a brief introduction about yourself, your background, and your interests.')
     st.write('')
 
     # Academics section
-    st.markdown('<h2 id="academics" style="color: white;">Academics</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 id="academics" style="color: black;">Academics</h2>', unsafe_allow_html=True)
+    st.write("I have maintained a strong academic record throughout my education, showcasing my commitment to learning and intellectual curiosity. I have excelled in various subjects, including math, science, and computer programming.")
     st.write('Highlight your academic achievements, courses, GPA, and any honors or awards.')
     st.write('')
 
     # Activities section
-    st.markdown('<h2 id="activities" style="color: white;">Activities</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 id="activities" style="color: black;">Activities</h2>', unsafe_allow_html=True)
+    st.write("Beyond the classroom, I have been actively involved in extracurricular activities that have shaped my leadership skills, fostered teamwork, and allowed me to make a positive impact in my community. From participating in robotics competitions to volunteering in local STEM initiatives, I have embraced opportunities that align with my passion for innovation.")
     st.write('Showcase your extracurricular activities, leadership roles, and community involvement.')
     st.write('')
 
     # Contact section
-    st.markdown('<h2 id="contact" style="color: white;">Contact</h2>', unsafe_allow_html=True)
-    st.write('Provide your contact information for college admissions officers to reach you.')
+    st.markdown('<h2 id="contact" style="color: black;">Contact</h2>', unsafe_allow_html=True)
+    st.write("Thank you for considering my application. Feel free to reach out to me for any further information or to discuss my qualifications in more detail.")
     st.write('- Email: yourname@example.com')
     st.write('- Phone: (123) 456-7890')
 
