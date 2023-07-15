@@ -4,8 +4,8 @@ def main():
     st.set_page_config(page_title='College Application', layout='wide', initial_sidebar_state='collapsed')
 
     # Define color theme
-    primary_color = '#003366'  # MIT Dark Blue
-    secondary_color = '#FFC627'  # MIT Gold
+    primary_color = '#00A6FF'  # MIT Dark Blue
+    secondary_color = '#3200FF'  # MIT Gold
     text_color = '#000000'  # Black
 
     # Header
