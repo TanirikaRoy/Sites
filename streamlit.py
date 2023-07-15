@@ -6,7 +6,7 @@ def main():
     # Define color theme
     primary_color = '#00A6FF'  # MIT Dark Blue
     secondary_color = '#3200FF'  # MIT Gold
-    text_color = '#000000'  # Black
+    text_color = '#00A6FF'  # Black
 
     # Header
     st.markdown(
