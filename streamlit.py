@@ -1,3 +1,4 @@
+'''
 import streamlit as st
 
 def main():
@@ -60,4 +61,50 @@ def main():
     st.write('- Phone: (123) 456-7890')
 
 if __name__ == '__main__':
+    main()
+'''
+
+import streamlit as st
+
+def education_section():
+    st.header("Education")
+    st.subheader("Indian Institute of Technology Bombay, Mumbai, India")
+    st.write("Bachelor of Technology in Chemical Engineering")
+    st.write("CPI: 8.96/10 | Chemical Course CPI: 9.08/10")
+    st.write("Dual Minor in Biosciences & Bioengineering and Humanities & Social Sciences")
+
+    st.subheader("Fergusson College, Pune, India")
+    st.write("Higher Secondary Certificate in Science with Electronics")
+    st.write("Percentage: 92.62%")
+
+    st.subheader("St. Mary’s School, Pune, India")
+    st.write("Matriculation under Indian Certificate of Secondary Education [ICSE] Curriculum")
+    st.write("Percentage: 98.40%")
+
+def research_experience_section():
+    st.header("Research Experience")
+    st.subheader("Development of a Microfluidic Chip to study Cancer Cell Migration")
+    st.write("Guide: Prof. Abhijit Majumder | IIT Bombay")
+    # ... (details about the research experience)
+
+def professional_experience_section():
+    st.header("Professional Experience")
+    st.subheader("ITC Limited - KITES Technical Intern - FMCG Gandhidham, Gujarat, India")
+    st.write("Guide: Mr. Martin Jojo | Manager, Aashirvaad Salt | Foods Business Division")
+    # ... (details about the professional experience)
+
+# Define more sections for Teaching & Mentoring Experiences, Academic Projects, Technical Skills, Co-curricular Activities, etc.
+
+def main():
+    st.title("Tanirika Roy - Curriculum Vitae")
+    st.markdown("**Contact:** +91 9890015831 | **Email:** tanirika.roy@iitb.ac.in | **Website:** [xyz site](https://www.example.com)")
+
+    education_section()
+    research_experience_section()
+    professional_experience_section()
+    # Call more sections here
+
+    st.write("Generated using Streamlit")
+
+if __name__ == "__main__":
     main()
